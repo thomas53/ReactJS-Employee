@@ -1,0 +1,25 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 1rem;
+	thead,
+	td {
+		text-align: left;
+		padding: 8px;
+		a {
+			text-decoration: none;
+		}
+
+		a:link,
+		a:visited {
+			color: blue;
+		}
+		a:hover {
+			color: red;
+		}
+	}
+
+	tr:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+}

@@ -1,0 +1,31 @@
+.employee-form {
+	padding: 0 1rem;
+	form {
+		margin: auto;
+	}
+	input {
+		width: 14rem;
+		height: 2rem;
+		margin-bottom: 13px;
+		padding: 0 10px;
+		border-radius: 7px;
+		border-width: thin;
+		border-style: solid;
+		border-color: lightgray;
+	}
+	button {
+		width: 6rem;
+		height: 2rem;
+		border: none;
+		border-radius: 14px;
+		color: white;
+		font-weight: bold;
+		margin-right: 1rem;
+	}
+	button.btn-del {
+		background: red;
+	}
+	button.btn-submit {
+		background: #17bf02;
+	}
+}

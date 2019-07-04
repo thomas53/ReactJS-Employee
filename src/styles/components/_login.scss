@@ -1,0 +1,37 @@
+#login-form {
+	display: block;
+	text-align: center;
+	margin-top: 4rem;
+	form {
+		width: 15rem;
+		padding: 1rem;
+		margin: auto;
+		border-radius: 27px;
+		border-color: #959696;
+		border-width: 3px;
+		border-style: solid;
+		input {
+			width: 150px;
+			border-radius: 17px;
+			height: 30px;
+			border: solid;
+			border-width: thin;
+			margin: 0px 0 10px 0;
+			padding: 0px 11px;
+			text-align: center;
+		}
+		button {
+			width: 80px;
+			height: 30px;
+			border: none;
+			border-radius: 15px;
+			background-color: #17bf02;
+			color: white;
+			font-weight: bold;
+		}
+
+		button:hover {
+			background-color: #13a800;
+		}
+	}
+}
